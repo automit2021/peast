@@ -86,7 +86,7 @@ class Position implements \JSONSerializable
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array(
             "line" => $this->getLine(),

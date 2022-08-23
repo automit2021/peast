@@ -134,7 +134,7 @@ class TemplateLiteral extends Node implements Expression
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $ret = parent::jsonSerialize();
         unset($ret["parts"]);

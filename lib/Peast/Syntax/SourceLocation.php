@@ -82,7 +82,7 @@ class SourceLocation implements \JSONSerializable
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array(
             "start" => $this->start,

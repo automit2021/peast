@@ -187,7 +187,7 @@ class Comment extends Node
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $ret = parent::jsonSerialize();
         unset($ret["leadingComments"]);

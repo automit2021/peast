@@ -180,7 +180,7 @@ abstract class Node implements \JSONSerializable
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $ret = array();
         $props = \Peast\Syntax\Utils::getNodeProperties($this);

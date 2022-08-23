@@ -186,7 +186,7 @@ class Token implements \JSONSerializable
      * 
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array(
             "type" => $this->type,
